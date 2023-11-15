@@ -22,7 +22,7 @@ describe('TodosService', () => {
       const result: ITodo[] = [
         {
           id: 1,
-          content: 'Workout🏋️',
+          content: 'Workout',
           completed: false,
         },
       ];
@@ -36,7 +36,7 @@ describe('TodosService', () => {
     it('should return an array of cats', async () => {
       const result: ITodo = {
         id: 1,
-        content: 'Workout🏋️',
+        content: 'Workout',
         completed: false,
       };
 
